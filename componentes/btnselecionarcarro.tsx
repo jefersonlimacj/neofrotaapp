@@ -89,8 +89,9 @@ export default function SelecionarCarro({
                 >
                   <View style={{ flexDirection: "row", alignItems: "center" }}>
                     <Image
-                      source={{ uri: item.carro }}
-                      style={{ width: 50, height: 30 }}
+                      source={{ uri: item.foto }}
+                      style={{ height: 35, width: 70, marginRight: 10 }}
+                      resizeMode="contain"
                     />
                     <Text>
                       {item.nome} - {item.placa}

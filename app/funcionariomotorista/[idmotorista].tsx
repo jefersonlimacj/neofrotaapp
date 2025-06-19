@@ -56,6 +56,20 @@ export default function FuncionarioMotorista() {
       placa: "SGD-5B12",
       licenciamento: true,
     },
+    {
+      id: 4,
+      nome: "Spin LTZ 1.0",
+      foto: Carros.spin,
+      placa: "QRX-4T55",
+      licenciamento: true,
+    },
+    {
+      id: 5,
+      nome: "Spin LTZ 1.0",
+      foto: Carros.spin,
+      placa: "QZA-0A93",
+      licenciamento: true,
+    },
   ];
 
   const avisoCNH = (
